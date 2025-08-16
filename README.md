@@ -30,8 +30,7 @@ A modern, responsive **portfolio website** built with **HTML, CSS, and JavaScrip
 ---
 
 ## 📷 Screenshots
-(Add screenshots of your portfolio UI here, e.g. Home Page, Projects Section, Contact Section)
-
+(https://github.com/Shravs157-59/Portfolio/blob/main/screenshot.png)
 ---
 
 ## 📦 Installation & Setup
@@ -45,8 +44,7 @@ git clone https://github.com/Shravs157-59/portfolio.git
 cd portfolio
 
 # Open index.html in your browser
-📬 Contact
-
+'''📬 Contact
 Name: Raghumanda Sravanthi
 
 GitHub: Shravs157-59
