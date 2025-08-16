@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sravanthi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#coding-profiles" class="nav-link" data-section="coding-profiles">Coding Profiles</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section active">
+        <div class="home-container">
+            <div class="profile-image-container">
+                <div class="profile-image">
+                    <img src="sravanthiprofile.jpg" alt="Profile Picture" class="profile-img">
+                </div>
+            </div>
+            <div class="home-content">
+                <h1 class="home-title">Raghumanda Sravanthi<h1> 
+                    <p class="home-tagline">Full Stack Developer & Creative Problem Solver</p>
+                <div class="social-links">
+                    <a href="https://github.com/Shravs157-59" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/sravanthi-raghumanda-s0709" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/sravanthi_raghumanda" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="back-to-home">
+                <button class="back-btn" data-section="home">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </button>
+            </div>
+
+            <!-- About Me Header -->
+            <div class="about-main-header fade-in-section">
+                <h1>About Me</h1>
+            </div>
+
+            <!-- About Content Grid -->
+            <div class="about-grid fade-in-section">
+                <!-- Who I Am -->
+                <div class="about-section-item">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate 3rd year Computer Science Engineering student with a strong focus on problem-solving and algorithmic thinking. I love exploring new technologies and building innovative solutions while continuously learning and growing in the field of software development.</p>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="about-section-item">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li><strong>Programming Languages:</strong> C, Python, JavaScript (Learning Java)</li>
+                        <li><strong>Web Technologies:</strong> HTML, CSS, Node.js, Express.js (Exploring Django)</li>
+                        <li><strong>Development Tools:</strong> VSCode, Git, GitHub</li>
+                        <li><strong>Databases:</strong> MySQL, SQLite ,MongoDB(Learning Firebase)</li>
+                        <li><strong>Academic Coursework:</strong> Data Structures & Algorithms, OOPS, Database Management, Computer Networks</li>
+                    </ul>
+                </div>
+
+                <!-- Education -->
+                <div class="about-section-item">
+                    <h3>Education</h3>
+                    <p><strong>Bachelor of Technology in Computer Science Engineering (3rd Year)</strong></p>
+                    <p>Lendi Institute Of Engineering and Technology, Vizianagaram</p>
+                    <p><em>Expected Graduation: 2027 | Current CGPA: 9.3/10</em></p>
+                </div>
+
+                <!-- Learning & Development -->
+                <div class="about-section-item">
+                    <h3>Learning & Development</h3>
+                    <ul class="experience-list">
+                        <li>Blueprism Intelligent Automation Virtual Internship</li>
+                        <li>Palo alto Cybersecurity Virtual Internship </li>
+                        <li>Google Andriod developer Virtual Internship</li>
+                        <li>Google Cloud Generative-ai Virtual Internship</li>
+                        <li>Google Cloud Cybersecurity Virtual Internship</li>
+                    </ul>
+                </div>
+
+                <!-- Academic Achievements -->
+                <div class="about-section-item">
+                    <h3>Academic Achievements</h3>
+                    <ul class="achievements-list">
+                        <li><strong>HackerRank</strong> Certifications in Python and Problem Solving</li>
+                        <li><strong>NPTEL</strong> Certifications in IoT, Data Science for engineers,Developing Soft Skills and Personality</li>
+                        <li><strong>Competitive Programming:</strong> Solved 200+ CodeChef problems</li>
+                        <li>Active participation in college Cultural Events</li>
+                    </ul>
+                </div>
+
+                <!-- Interests & Activities -->
+                <div class="about-section-item">
+                    <h3>Interests & Activities</h3>
+                    <p>Passionate about travelling and exploring new places. Enjoy to spend time with my family members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+<section id="projects" class="section projects-section">
+    <div class="container">
+        <div class="back-to-home">
+            <button class="back-btn" data-section="home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </button>
+        </div>
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Calculator -->
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Calculator</h3>
+                    <p>A modern, responsive calculator built with HTML, CSS, and JavaScript — includes scientific functions, memory, bracket support, and dynamic history tracking.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shravs157-59/Calculator" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weather App -->
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Weather App</h3>
+                    <p>State Weather App — a simple, modern web app providing real-time weather updates for districts using the OpenWeatherMap API.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shravs157-59/Weather-App" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FLAMES Game -->
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="project-content">
+                    <h3>FLAMES Game</h3>
+                    <p>A fun little game to find out the "relationship" between two names — based on the classic FLAMES concept.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shravs157-59/flames-game" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- InsightFlow (To-Do List App) -->
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-content">
+                    <h3>InsightFlow (To-Do List App)</h3>
+                    <p>A simple yet powerful To-Do List web app built with JavaScript to manage daily tasks efficiently with a clean UI.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shravs157-59/InsightFlow" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Snake Game -->
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Snake Game</h3>
+                    <p>A modern twist on the classic Snake Game built with pure HTML, CSS, and JavaScript using the Canvas API.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Shravs157-59/Snake-Game" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Coding Profiles Section -->
+<section id="coding-profiles" class="section coding-profiles-section">
+    <div class="container">
+
+        <!-- Back to Home Button -->
+        <div class="back-to-home">
+            <button class="back-btn" data-section="home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </button>
+        </div>
+
+        <h2>Coding Profiles</h2>
+
+        <div class="coding-profiles-grid">
+            <!-- CodeChef -->
+            <div class="coding-profile-card fade-in-section">
+                <div class="profile-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>CodeChef</h3>
+                <p>Solved 300+ problems</p>
+                <a href="https://www.codechef.com/users/giddy_campo_12" target="_blank" class="profile-link">
+                    Visit Profile <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- Codeforces -->
+            <div class="coding-profile-card fade-in-section">
+                <div class="profile-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Codeforces</h3>
+                <p>Enthusastic Programmer</p>
+                <a href="https://codeforces.com/profile/Shravs157" target="_blank" class="profile-link">
+                    Visit Profile <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- HackerRank -->
+            <div class="coding-profile-card fade-in-section">
+                <div class="profile-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>HackerRank</h3>
+                <p>Certified Python Basics</p>
+                <a href="https://www.hackerrank.com/profile/raghumandasrava1" target="_blank" class="profile-link">
+                    Visit Profile <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="back-to-home">
+                <button class="back-btn" data-section="home">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </button>
+            </div>
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in-section">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to work together or just want to say hello!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>raghumandasravanthil0@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7075669342</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Vizianagaram,Andhra pradesh , India</span>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://github.com/Shravs157-59" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sravanthi-raghumanda-s0709" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/sravanthi_raghumanda" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form fade-in-section">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
