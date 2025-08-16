@@ -44,11 +44,3 @@ git clone https://github.com/Shravs157-59/portfolio.git
 cd portfolio
 
 # Open index.html in your browser
-'''📬 Contact
-Name: Raghumanda Sravanthi
-
-GitHub: Shravs157-59
-
-LinkedIn: sravanthi-raghumanda-s0709
-
-Email: raghumandasravanthil0@gmail.com
